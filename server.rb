@@ -1,5 +1,4 @@
 require 'sinatra'
-require './pressure.rb'
 
 get '/pressure' do
   send_file 'pressure.png'
